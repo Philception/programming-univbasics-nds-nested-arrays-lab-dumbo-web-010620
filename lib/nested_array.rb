@@ -49,7 +49,5 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
   matrix[row][column] = [new_value]
-matrix_update[new_value]
+matrix_update[row][column][new_value]
 end
-
-matrix_update[conventional_produce][2][0] = Green
