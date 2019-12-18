@@ -52,4 +52,4 @@ def matrix_update(matrix, row, column, new_value)
 matrix_update[new_value]
 end
 
-matrix_update[2][0] = Green
+matrix_update[conventional_produce][2][0] = Green
